@@ -1,0 +1,142 @@
+.btn__site
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 307px
+	height: 58px
+	border: 2px solid $white
+	z-index: 2
+	position: relative
+	&:before
+		content: ''
+		display: block
+		width: 0
+		height: 100%
+		background: $white
+		position: absolute
+		transition: $transition
+	a
+		display: flex
+		justify-content: center
+		align-items: center
+		color: $white
+		font-weight: bold
+		text-transform: uppercase
+		letter-spacing: 2px
+		transition: $transition
+		z-index: 5
+		img
+			margin-left: 8px
+			transition: $transition
+		.arrow__left_coffe
+			display: none
+			
+	&:hover
+		&:before
+			width: 100%
+		a
+			color: $coffe
+			.arrow__left
+				display: none
+			.arrow__left_coffe
+				display: block
+				margin-left: 35px
+				
+
+.btn__burger
+	width: 33px
+	height: 40px
+	position: relative
+	overflow: hidden
+	cursor: pointer
+	span
+		width: 100%
+		height: 1px
+		background: $coffe
+		box-shadow: 0 -10px 0 $coffe, 0 10px 0 $coffe
+		position: absolute
+		top: 50%
+		left: 50%
+		-webkit-transform: translate(-50%, -50%) rotate(0deg)
+		-moz-transform: translate(-50%, -50%) rotate(0deg)
+		-ms-transform: translate(-50%, -50%) rotate(0deg)
+		-o-transform: translate(-50%, -50%) rotate(0deg)
+		transform: translate(-50%, -50%) rotate(0deg)
+		transition-property: transform, box-shadow
+		-webkit-transition-delay: 0s, 1s
+		-moz-transition-delay: 0s, 1s
+		-ms-transition-delay: 0s, 1s
+		-o-transition-delay: 0s, 1s
+		transition-delay: 0s, 1s
+		transition-duration: 0.5s, 0.5s
+		&:before
+			content: ''
+			width: 1px
+			height: 33px
+			background: $coffe
+			position: absolute
+			top: -50px
+			left: 50%
+			-webkit-transform: translate(-50%, -50%)
+			-moz-transform: translate(-50%, -50%)
+			-ms-transform: translate(-50%, -50%)
+			-o-transform: translate(-50%, -50%)
+			transform: translate(-50%, -50%)
+			transition: 0.5s
+			-webkit-transition-delay: 0.5s
+			-moz-transition-delay: 0.5s
+			-ms-transition-delay: 0.5s
+			-o-transition-delay: 0.5s
+			transition-delay: 0.5s
+
+.btn__burger_active
+	span
+		box-shadow: 50px -10px 0 $coffe, -50px 10px 0 $coffe
+		-webkit-transform: translate(-50%, -50%) rotate(-315deg)
+		-moz-transform: translate(-50%, -50%) rotate(-315deg)
+		-ms-transform: translate(-50%, -50%) rotate(-315deg)
+		-o-transform: translate(-50%, -50%) rotate(-315deg)
+		transform: translate(-50%, -50%) rotate(-315deg)
+		transition-property: box-shadow, transform
+		-webkit-transition-delay: 0s, 0.5s
+		-moz-transition-delay: 0s, 0.5s
+		-ms-transition-delay: 0s, 0.5s
+		-o-transition-delay: 0s, 0.5s
+		transition-delay: 0s, 0.5s
+		transition-duration: 0.5s, 0.5s								
+		&:before
+			top: 50%
+			-webkit-transition-delay: 1s
+			-moz-transition-delay: 1s
+			-ms-transition-delay: 1s
+			-o-transition-delay: 1s
+			transition-delay: 1s
+
+.btn__burger_text
+	font-size: 15px
+	font-weight: 600
+	text-transform: uppercase
+	color: $l_white
+	margin-left: 12px
+
+.btn__scroll
+	width: 30px
+	margin-top: 43px
+	a
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+
+		span
+			margin-top: 25px
+		.btn__scroll_text
+			color: $white
+			font-size: 14px
+			font-weight: 600
+			letter-spacing: 2px
+			text-transform: uppercase
+			opacity: 0.1
+			margin-top: 50px
+
+			

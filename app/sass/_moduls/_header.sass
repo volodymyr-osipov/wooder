@@ -1,0 +1,104 @@
+header
+	display: flex
+	width: 100vw
+	height: 100vh
+	position: relative
+.bg__header
+	display: block
+	width: 100%
+	height: 100%
+	position: relative
+	&:after
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		background: $black__bg
+	
+	
+.bg__first
+	display: block
+	width: 55%
+	height: calc(100% - 42px)
+	background: url(../img/bg/2.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	.decor__test
+		bottom: -258px
+		left: 33%
+
+.bg__second
+	display: block
+	width: 45%
+	height: 100%
+	background: url(../img/bg/1.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	.decor__test
+		top: 26%
+		right: -170px
+	.decor__line
+		bottom: -25px
+		left: 50%
+	.bg__text_decor
+		left: 40%
+		top: 44%
+		span
+			margin: 8px
+				
+.bg__first_decor,
+.bg__first_content
+	position: absolute
+	z-index: 5
+
+.bg__first_content
+	top: 35%
+	left: 65%
+	h1
+		margin-bottom: 60px
+
+.bg__first_decor
+	display: flex
+	flex-direction: column
+	align-items: center
+	color: $coffe
+	font-size: 52px
+	top: 30%
+	left: 35%
+	width: 60px
+	&:before
+		content: ''
+		display: block
+		width: 4px
+		height: 52px
+		background: $coffe
+		margin-right: 42px
+
+	a
+		color: $coffe
+		span
+			display: block
+			width: 10px
+			height: 10px
+			border-radius: 50%
+			background: $light_gray
+			margin-top: 40px
+			margin-right: 42px
+			&:nth-child(1)
+				width: 100%
+				background: transparent
+				margin-right: 0
+			&:nth-child(2)
+				margin-top: 85px
+		.slide__active
+			background: $coffe
+	
+.bg__second_decor,
+.header__social
+	position: absolute
+
+.header__social
+	bottom: 25px
+	right: 50px

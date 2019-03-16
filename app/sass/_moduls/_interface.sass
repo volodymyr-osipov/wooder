@@ -1,0 +1,100 @@
+::placeholder
+	color: #717171
+	font-size: 16px
+
+body
+	margin: 0
+	padding: 0
+	font-family: $default_font
+	background: $white
+	overflow-x: hidden
+
+*
+	margin: 0
+	padding: 0
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+a
+	text-decoration: none
+	&:hover
+		text-decoration: none
+		
+h1, h2, h3
+	margin: 0
+	padding: 0
+
+p
+	margin: 0
+	padding: 0
+
+ul, ol
+	margin: 0
+	padding: 0
+
+li
+	list-style: none
+
+img
+	max-width: 100%
+
+.logo
+	display: flex
+	align-items: center
+	font-size: 36px
+	font-weight: 600
+	text-transform: uppercase
+	color: $white
+	position: relative
+	letter-spacing: 10px
+	transition: $transition
+	&:before
+		content: ''
+		display: block
+		width: 64px
+		height: 4px
+		background: $coffe
+		position: absolute
+		left: 45px
+	
+h1
+	font-size: 100px
+	font-weight: 600
+	color: $coffe
+	text-transform: uppercase
+	letter-spacing: 20px
+
+.vertical__text
+	-webkit-transform: rotate(90deg)
+	-moz-transform: rotate(90deg)
+	-ms-transform: rotate(90deg)
+	-o-transform: rotate(90deg)
+	transform: rotate(90deg)
+
+.decor__test
+	font-size: 395px
+	color: $coffe
+	font-weight: 600
+	text-transform: uppercase
+	position: absolute
+	opacity: 0.07
+
+.decor__line
+	display: block
+	width: 4px
+	height: 51px
+	background: $coffe
+	position: absolute
+
+.bg__text_decor
+	font-size: 14px
+	font-weight: 600
+	letter-spacing: 2px
+	color: $coffe
+	position: absolute
+	opacity: 0.2
