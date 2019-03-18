@@ -656,24 +656,25 @@ header {
   .furniture__list:nth-child(2) .count__decor {
     left: 0;
     bottom: 0; }
-  .furniture__list:last-child .furniture__text {
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    text-align: right;
-    padding-left: 0;
-    padding-right: 95px;
-    margin-bottom: 220px; }
-    .furniture__list:last-child .furniture__text p {
-      width: 90%; }
-      .furniture__list:last-child .furniture__text p:before {
-        left: 444px; }
-    .furniture__list:last-child .furniture__text h2:before {
-      left: 230px; }
-  .furniture__list:last-child .count__decor {
-    right: 0;
-    bottom: 0; }
+  .furniture__list:last-child {
+    margin-bottom: 200px; }
+    .furniture__list:last-child .furniture__text {
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      text-align: right;
+      padding-left: 0;
+      padding-right: 95px; }
+      .furniture__list:last-child .furniture__text p {
+        width: 90%; }
+        .furniture__list:last-child .furniture__text p:before {
+          left: 444px; }
+      .furniture__list:last-child .furniture__text h2:before {
+        left: 230px; }
+    .furniture__list:last-child .count__decor {
+      right: 0;
+      bottom: 0; }
 
 .furniture__text {
   display: -webkit-box;
@@ -753,6 +754,112 @@ header {
       letter-spacing: 7px; }
   .furniture__img:nth-child(2) .decor__test {
     left: -50%; }
+
+.quality h2 {
+  text-align: center;
+  position: relative; }
+  .quality h2:after {
+    content: '';
+    display: block;
+    width: 44px;
+    height: 4px;
+    background: #BEA67C;
+    position: absolute;
+    left: 50%;
+    bottom: -30px; }
+
+.quality p {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px; }
+
+.quality__video {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.quality__video_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 82px; }
+  .quality__video_list:first-child {
+    margin-left: 0; }
+  .quality__video_list a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 14px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: relative; }
+    .quality__video_list a .video__play {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background: rgba(190, 166, 124, 0.8);
+      padding: 26px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+  .quality__video_list .quality__desc {
+    margin-top: 43px;
+    font-size: 16px;
+    color: #010101;
+    position: relative; }
+    .quality__video_list .quality__desc:after {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 1px;
+      background: #BEA67C;
+      position: absolute;
+      top: -22px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%); }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
