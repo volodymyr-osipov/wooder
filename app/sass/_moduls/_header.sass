@@ -26,7 +26,7 @@ header
 	position: relative
 	.decor__test
 		bottom: -258px
-		left: 33%
+		left: 20%
 
 .bg__second
 	display: block
@@ -58,6 +58,22 @@ header
 	left: 65%
 	h1
 		margin-bottom: 60px
+	.btn__site
+		justify-content: center
+		align-items: center	
+		width: 307px
+		height: 58px
+		border: 2px solid $white
+		z-index: 2
+		position: relative
+		&:before
+			content: ''
+			display: block
+			width: 0
+			height: 100%
+			background: $white
+			position: absolute
+			transition: $transition
 
 .bg__first_decor
 	display: flex
@@ -94,6 +110,7 @@ header
 				margin-top: 85px
 		.slide__active
 			background: $coffe
+
 	
 .bg__second_decor,
 .header__social

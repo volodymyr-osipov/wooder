@@ -1,0 +1,123 @@
+.furniture
+	padding-top: 90px
+
+.furniture__wrap
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	width: 1200px
+	margin: 0 auto
+	position: relative
+	.decor__test
+		right: 0
+		top: 27%
+
+.furniture__list
+	display: flex
+	justify-content: space-between
+	align-items: center
+	position: relative
+	margin-bottom: 280px
+	.count__decor
+		&:after
+			content: ''
+			display: block
+			width: 4px
+			height: 51px
+			background: $coffe
+			position: absolute
+			bottom: -105px
+			left: 50%
+			transform: translateX(-50%)
+			
+	&:nth-child(2)
+		.count__decor
+			left: 0
+			bottom: 0
+	&:last-child
+		.furniture__text
+			align-items: flex-end
+			text-align: right
+			padding-left: 0
+			padding-right: 95px
+			margin-bottom: 220px
+			p
+				width: 90%
+				&:before
+					left: 444px
+			h2
+				&:before
+					left: 230px
+
+		.count__decor
+			right: 0
+			bottom: 0
+
+.furniture__text
+	display: flex
+	flex-direction: column
+	padding-left: 75px
+	width: 47%
+	position: relative
+	p
+		margin: 30px 0
+		position: relative
+		&:before
+			content: ''
+			display: block
+			width: 44px
+			height: 4px
+			background: $coffe
+			position: absolute
+			top: 12px
+			left: -74px
+			
+	h2
+		position: relative
+		&:before
+			content: ''
+			display: block
+			width: 151px
+			height: 1px
+			background: $black
+			position: absolute
+			top: 50%
+			left: -181px
+	.btn__site
+		a
+			color: $black
+			position: relative
+			.arrow__left
+				display: none
+			.arrow__left_coffe
+				display: block
+			&:after
+				content: ''
+				display: block
+				width: 44px
+				height: 2px
+				background: $coffe
+				position: absolute
+				left: 0
+				bottom: -3px				
+.furniture__img
+	display: flex
+	box-shadow: $box-shadow
+	position: relative
+	.decor__test
+		display: flex
+		top: 50%
+		left: 50%
+		transform: translateY(-50%)
+		span
+			font-size: 170px
+			font-weight: 600
+			text-transform: uppercase
+			letter-spacing: 7px
+	&:nth-child(2)
+		.decor__test
+			left: -50%
+			
+
+			
