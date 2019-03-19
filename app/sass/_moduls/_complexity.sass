@@ -1,0 +1,72 @@
+.complexity
+	display: flex
+	justify-content: center
+	align-items: center
+	margin-top: 150px
+	padding: 90px 180px
+	background: url(../img/bg/3.jpg) no-repeat
+	background-attachment: fixed
+	position: relative
+	&:after
+		content: ''
+		width: 100%
+		height: 100%
+		background: $black__bg
+		position: absolute
+		top: 0
+		left: 0
+	.complexity__wrapp
+		display: block
+		width: 100%
+		z-index: 2
+		border: 2px solid $coffe
+		.complexity__text
+			display: flex
+			flex-direction: column
+			position: relative
+			padding: 180px 420px
+			p
+				width: 75%
+				margin: 30px 0
+				position: relative
+				&:before
+					content: ''
+					display: block
+					width: 44px
+					height: 4px
+					background: $coffe
+					position: absolute
+					top: 12px
+					left: -74px		
+			h2
+				color: $coffe
+				position: relative
+				&:before
+					content: ''
+					display: block
+					width: 151px
+					height: 1px
+					background: $white
+					position: absolute
+					top: 50%
+					left: -181px
+			.btn__site
+				justify-content: center
+				align-items: center	
+				width: 307px
+				height: 58px
+				border: 2px solid $white
+				z-index: 2
+				transition: $transition
+
+				&:hover
+					border-color: $coffe	
+
+.complexity__img
+	position: absolute
+	top: 30px 
+	right: 50px
+			
+
+	
+	

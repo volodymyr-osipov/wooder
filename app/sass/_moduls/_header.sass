@@ -3,6 +3,8 @@ header
 	width: 100vw
 	height: 100vh
 	position: relative
+	overflow-x: hidden
+	
 .bg__header
 	display: block
 	width: 100%
@@ -55,7 +57,7 @@ header
 
 .bg__first_content
 	top: 35%
-	left: 65%
+	left: 62%
 	h1
 		margin-bottom: 60px
 	.btn__site
@@ -66,14 +68,8 @@ header
 		border: 2px solid $white
 		z-index: 2
 		position: relative
-		&:before
-			content: ''
-			display: block
-			width: 0
-			height: 100%
-			background: $white
-			position: absolute
-			transition: $transition
+		&:hover
+			border-color: $coffe
 
 .bg__first_decor
 	display: flex
