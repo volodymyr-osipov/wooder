@@ -986,10 +986,10 @@ header {
   padding: 125px 0;
   overflow-y: hidden; }
   .about .about__list {
-    width: 63%;
+    width: 70%;
     margin: 0 auto; }
     .about .about__list .about__img .decor__test {
-      left: -450px; }
+      left: -340px; }
     .about .about__list .about__text {
       -webkit-box-align: start;
       -webkit-align-items: flex-start;
@@ -1035,7 +1035,7 @@ header {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 65%;
+  width: 70%;
   height: 100%;
   margin: 0 auto; }
   .footer__content .footer__logo {
