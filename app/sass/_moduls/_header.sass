@@ -1,8 +1,11 @@
+//header
 header
 	display: flex
 	width: 100vw
 	height: 100vh
 	position: relative
+	overflow-x: hidden
+	
 .bg__header
 	display: block
 	width: 100%
@@ -26,7 +29,7 @@ header
 	position: relative
 	.decor__test
 		bottom: -258px
-		left: 33%
+		left: 20%
 
 .bg__second
 	display: block
@@ -55,9 +58,19 @@ header
 
 .bg__first_content
 	top: 35%
-	left: 65%
+	left: 62%
 	h1
 		margin-bottom: 60px
+	.btn__site
+		justify-content: center
+		align-items: center	
+		width: 307px
+		height: 58px
+		border: 2px solid $white
+		z-index: 2
+		position: relative
+		&:hover
+			border-color: $coffe
 
 .bg__first_decor
 	display: flex
@@ -94,6 +107,7 @@ header
 				margin-top: 85px
 		.slide__active
 			background: $coffe
+
 	
 .bg__second_decor,
 .header__social
