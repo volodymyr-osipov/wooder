@@ -905,6 +905,8 @@ header {
   padding: 90px 180px;
   background: url(../img/bg/3.jpg) no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+          background-size: cover;
   position: relative; }
   .complexity:after {
     content: '';
@@ -977,7 +979,7 @@ header {
 
 .complexity__img {
   position: absolute;
-  top: 30px;
+  top: 0;
   right: 50px; }
 
 /*==========  Desktop First  ==========*/
