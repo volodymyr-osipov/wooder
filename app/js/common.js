@@ -38,25 +38,6 @@ $(".go__down").click(function(){
 return false;
 });
 
-$(".go__down_s").click(function(){
-	$("html, body").animate({scrollTop: $("header").height()+ 600 },"slow");
-return false;
-});
-
-$(".go__down_ms").click(function(){
-	$("html, body").animate({scrollTop: $("header").height()+ 1200 },"slow");
-return false;
-});
-
-$(".go__down_p").click(function(){
-	$("html, body").animate({scrollTop: $("header").height()+ 2100 },"slow");
-return false;
-});
-
-$(".go__down_c").click(function(){
-	$("html, body").animate({scrollTop: $("header").height()+ 5200 },"slow");
-return false;
-});
 
 //btn__burger
 $(document).ready(function(){

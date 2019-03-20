@@ -982,6 +982,28 @@ header {
   top: 0;
   right: 50px; }
 
+.about {
+  padding: 125px 0;
+  overflow-y: hidden; }
+  .about .about__list {
+    width: 63%;
+    margin: 0 auto; }
+    .about .about__list .about__img .decor__test {
+      left: -450px; }
+    .about .about__list .about__text {
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .about .about__list .about__text h2 {
+        text-align: left; }
+        .about .about__list .about__text h2:before {
+          left: -170px; }
+      .about .about__list .about__text p {
+        text-align: left; }
+        .about .about__list .about__text p:before {
+          left: -60px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
